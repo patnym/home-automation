@@ -48,6 +48,14 @@ Get the password **Home password** from Lastpass
 > passwd
 ```
 
+### Passwordless sudoer
+
+Authenticate as sudo first, then add
+```
+> sudo bash
+> echo "patnym  ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
+```
+
 ### Disable root user
 
 ```
