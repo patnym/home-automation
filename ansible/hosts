@@ -1,7 +1,8 @@
 [master]
-kubemaster
+192.168.1.74
 
 [node]
+192.168.1.94
 
 [k3s_cluster:children]
 master
